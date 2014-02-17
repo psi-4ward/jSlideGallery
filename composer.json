@@ -1,0 +1,47 @@
+{
+  "name": "psi/jSlideGallery",
+  "description": "Contao Extension: Rhinoslider with a neat content element",
+  "keywords": ["contao", "slider", "jquery"],
+  "type": "contao-module",
+  "homepage": "https://github.com/psi-4ward/jSlideGallery",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christoph Wiechert",
+      "email": "wio@psitrax.de",
+      "homepage": "http://4wardmedia.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "wio@psitrax.de",
+    "issues": "https://github.com/psi-4ward/jSlideGallery/issues",
+    "forum": "https://community.contao.org/de/forumdisplay.php?110-4ward",
+    "irc": "irc://irc.freenode.org/contao.dev",
+    "source": "https://github.com/psi-4ward/jSlideGallery"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.2,<3.3",
+    "menatwork/contao-multicolumnwizard": "~3"
+  },
+  "replace": {
+    "contao-legacy/jSlideGallery": "self.version"
+  },
+  "conflict": {
+    "contao/core": "3.0.*"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/jSlideGallery"
+      },
+      "runonce": [
+        "runonce/32update.php"
+      ]
+    },
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
