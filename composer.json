@@ -1,5 +1,5 @@
 {
-  "name": "psi/jSlideGallery",
+  "name": "psi/jslidegallery",
   "description": "Contao Extension: Rhinoslider with a neat content element",
   "keywords": ["contao", "slider", "jquery"],
   "type": "contao-module",
