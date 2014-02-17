@@ -42,8 +42,6 @@ class ContentjSlideGallery extends ContentElement
 			}
 		}
 
-		echo (serialize($images)); exit;
-
 		$this->Template->items = $images;
 
 		// forece ID
